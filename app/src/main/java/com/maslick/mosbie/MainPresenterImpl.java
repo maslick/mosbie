@@ -1,7 +1,5 @@
 package com.maslick.mosbie;
 
-import android.content.Context;
-
 import com.hannesdorfmann.mosby.mvp.MvpBasePresenter;
 
 /**
@@ -12,7 +10,7 @@ public class MainPresenterImpl extends MvpBasePresenter<MainView> implements Mai
 
     private final ClickCounterModel model;
 
-    public MainPresenterImpl(Context context) {
+    public MainPresenterImpl() {
         model = new ClickCounterModel();
     }
 
