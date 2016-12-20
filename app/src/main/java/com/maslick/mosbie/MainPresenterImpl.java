@@ -13,7 +13,7 @@ public class MainPresenterImpl extends MvpBasePresenter<MainView> implements Mai
     private final ClickCounterModel model;
 
     public MainPresenterImpl(Context context) {
-        model = new ClickCounterModel(context);
+        model = new ClickCounterModel();
     }
 
     @Override
